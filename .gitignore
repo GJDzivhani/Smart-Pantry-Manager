@@ -1,0 +1,19 @@
+
+# Android Studio and local machine files
+/.idea/
+/.gradle/
+/local.properties
+
+# Local assignment notes and diagnostic output
+/STUDENT_GUIDE.md
+/android-diagnostic-report.txt
+
+# Generated build output
+/build/
+/app/build/
+/app/.externalNativeBuild/
+/app/.cxx/
+
+# Temporary backups
+*.backup-*
+*.encoding-backup-*
