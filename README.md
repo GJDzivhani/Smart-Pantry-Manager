@@ -92,3 +92,8 @@ paints the icon. To add a keyword, add it to the matching `words(...)` line; to 
 Cards are outlined with 16dp corners and rounded status pills. The navigation and action icons are the
 Material Design icon set (Apache 2.0); the ingredient icons are drawn for this app. Every colour lives in
 `res/values/colors.xml`, so re-theming is a one-file change.
+
+## Build and test from the terminal
+
+Run `.\gradlew.bat testDebugUnitTest` to run unit tests and `.\gradlew.bat assembleDebug` to build the debug APK. The generated APK is located at `app/build/outputs/apk/debug/app-debug.apk` and should not be committed to Git.
+
