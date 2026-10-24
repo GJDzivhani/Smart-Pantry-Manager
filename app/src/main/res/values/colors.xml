@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand: two colours only.
+         Pantry green (structure: headers, buttons, selected states)
+         Turmeric     (highlight: the main action and the "you can cook" call-out) -->
+    <color name="colorPrimary">#1F4D3F</color>
+    <color name="colorPrimaryDark">#153529</color>
+    <color name="colorPrimaryMuted">#CFE3D8</color>   <!-- secondary text on the green header -->
+    <color name="colorSecondary">#E8A11A</color>
+    <color name="colorSecondaryDark">#8A5700</color>  <!-- turmeric dark enough for text on white (6:1) -->
+
+    <!-- The "ready to cook" call-out (turmeric tint) -->
+    <color name="colorHighlightBg">#FBEFD0</color>
+    <color name="colorHighlightStroke">#F0D58F</color>
+    <color name="colorHighlightText">#4A2F00</color>
+    <color name="colorHighlightSub">#7A5A1E</color>
+
+    <!-- Surfaces and text (green-tinted neutrals) -->
+    <color name="colorBackground">#F3F6F2</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorDivider">#DCE5DE</color>
+    <color name="textPrimary">#14211B</color>
+    <color name="textSecondary">#5B6B63</color>
+
+    <!-- Status colours (only used for small status labels) -->
+    <color name="colorSuccess">#1B5E3B</color>
+    <color name="colorSuccessBg">#DDF0E3</color>
+    <color name="colorWarning">#7A4B00</color>
+    <color name="colorWarningBg">#FCEBC5</color>
+    <color name="colorDanger">#A32A2A</color>
+    <color name="colorDangerBg">#F8DEDB</color>
+    <color name="colorNeutralBg">#E8EEE9</color>
+
+    <!-- Ingredient category colours (icon colour; the chip behind it is the same colour at ~17%) -->
+    <color name="cat_egg">#E8741A</color>
+    <color name="cat_dairy">#2F6FD0</color>
+    <color name="cat_cheese">#D2A100</color>
+    <color name="cat_meat">#9E3A2E</color>
+    <color name="cat_fish">#0C8A9C</color>
+    <color name="cat_tomato">#D8344A</color>
+    <color name="cat_bulb">#8450B8</color>
+    <color name="cat_greens">#3C9A4B</color>
+    <color name="cat_fruit">#D4478A</color>
+    <color name="cat_grain">#A8692A</color>
+    <color name="cat_oil">#7E9B16</color>
+    <color name="cat_spice">#566F9E</color>
+    <color name="cat_other">#5E7A6B</color>
+</resources>

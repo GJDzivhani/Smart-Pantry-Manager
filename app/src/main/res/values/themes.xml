@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================================== theme -->
+    <style name="Theme.SmartPantry" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+        <item name="colorError">@color/colorDanger</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorSurface</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+
+        <!-- Typography: Poppins for everything, Lora for headings. -->
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Pantry.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Pantry.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Pantry.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Pantry.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Pantry.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Pantry.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Pantry.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Pantry.Caption</item>
+
+        <!-- Component styles -->
+        <item name="toolbarStyle">@style/Widget.Pantry.Toolbar</item>
+        <item name="bottomNavigationStyle">@style/Widget.Pantry.BottomNav</item>
+        <item name="materialButtonStyle">@style/Widget.Pantry.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Pantry.Button.Outlined</item>
+        <item name="textInputStyle">@style/Widget.Pantry.TextInput</item>
+    </style>
+
+    <!-- ===================================================== framework text appearances -->
+    <style name="TextAppearance.Pantry.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:fontFamily">@font/lora_bold</item>
+        <item name="fontFamily">@font/lora_bold</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/lora_semibold</item>
+        <item name="fontFamily">@font/lora_semibold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.NavLabel" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Pantry.NavLabelActive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- ============================================================ app text styles -->
+    <!-- Used from layouts via android:textAppearance. Colour is set where each is used. -->
+
+    <!-- Recipe name on the detail screen -->
+    <style name="Pantry.Text.Display" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/lora_bold</item>
+        <item name="fontFamily">@font/lora_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineSpacingMultiplier">1.05</item>
+    </style>
+
+    <!-- Ingredient names, recipe names, call-out title -->
+    <style name="Pantry.Text.Title" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/lora_semibold</item>
+        <item name="fontFamily">@font/lora_semibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Pantry.Text.Body" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Quantities, banners and other short emphasised lines -->
+    <style name="Pantry.Text.BodyMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Dates, prep times, hints -->
+    <style name="Pantry.Text.Meta" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12.5sp</item>
+    </style>
+
+    <!-- Summary strip under the toolbar -->
+    <style name="Pantry.Text.Label" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Card headings ("Ingredients", "Method", "Expiry alerts") -->
+    <style name="SectionTitle">
+        <item name="android:fontFamily">@font/lora_semibold</item>
+        <item name="fontFamily">@font/lora_semibold</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Small rounded status label ("Expires today", "Ready", ...). Background is set in code. -->
+    <style name="StatusPill">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- ================================================================ widget styles -->
+    <style name="Widget.Pantry.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Pantry.Headline6</item>
+    </style>
+
+    <style name="Widget.Pantry.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/TextAppearance.Pantry.NavLabelActive</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.Pantry.NavLabel</item>
+    </style>
+
+    <style name="Widget.Pantry.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Pantry.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Pantry.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <style name="Widget.Pantry.TextInput.Dropdown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+</resources>

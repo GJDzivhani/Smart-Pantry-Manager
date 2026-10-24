@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single-colour glyph; the colour is applied in code (see IngredientIcons). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M2.9 17a4.3 4.3 0 1 0 8.6 0a4.3 4.3 0 1 0 -8.6 0z" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M12.5 16a4.3 4.3 0 1 0 8.6 0a4.3 4.3 0 1 0 -8.6 0z" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M8.14 13.36L14.44 3.96L13.36 3.24L7.06 12.64z" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M17.02 11.81L14.52 3.41L13.28 3.79L15.78 12.19z" />
+    <path
+        android:fillColor="#000000"
+        android:fillType="evenOdd"
+        android:pathData="M20.55 3.07Q18.15 6.13 14.25 6.13Q16.65 3.07 20.55 3.07z" />
+</vector>
