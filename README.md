@@ -97,3 +97,8 @@ Material Design icon set (Apache 2.0); the ingredient icons are drawn for this a
 
 Run `.\gradlew.bat testDebugUnitTest` to run unit tests and `.\gradlew.bat assembleDebug` to build the debug APK. The generated APK is located at `app/build/outputs/apk/debug/app-debug.apk` and should not be committed to Git.
 
+
+## Test results
+
+The local unit test suite completed successfully with 19 tests, 0 failures and 0 ignored tests. The tests cover ingredient matching and ingredient category logic through `IngredientMatcherTest` and `IngredientCategoryTest`. Run `.\gradlew.bat testDebugUnitTest` to repeat the tests.
+
